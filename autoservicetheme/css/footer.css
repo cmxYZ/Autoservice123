@@ -1,0 +1,348 @@
+﻿@media (max-width: 3840px) {
+	body {				
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		line-height: 160%;
+		width: 100%;
+		height: 610px;
+		margin:0px;
+		background-color: #73767A;
+		color: #FFFFFF;
+	}
+	ul{
+		white-space: nowrap;
+		list-style-type: none;
+		padding-left: 0px;
+	}
+	/* first Section start*/
+	.undersectionLine{
+		position: relative;
+		margin: 20px 350px 0px 350px;
+		border: 1px solid #AEAFB0;
+		height: 0px;
+	}
+	.adres, .numbers, .firstSection{
+		display: flex;
+		align-items: center;
+	}
+	.adres, .numbers{
+		font-size: 32px;
+	}
+	.firstSection{
+		justify-content: space-around;
+		padding: 0px 350px 0px 350px;
+	}
+	.firstSection img{
+		height: 90px;
+		width: 90px;
+	}
+	.adres__float{
+		width: 310px;
+		padding-left: 40px;
+		line-height: 1.4;
+	}
+	.numbers__float{
+		width: 150px;
+		padding-left: 40px;
+	}
+	.numbers__float li{
+		margin-bottom: 15px;
+	}
+	/*secondSection start*/
+	.secondSection{
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 350px 0px 350px;
+		font-size: 26px;
+	}
+	.secondSection__line{
+		width: 78px;
+		height: 0px;
+		border: 1px solid #AEAFB0;
+		margin-left: 0px;
+	}
+	.secondSection h4{
+		font-weight: 600;
+		font-size: 28px;
+	}
+	.aboutUs__adres{
+		margin-top: 28px;
+	}
+	.aboutUs__contacts__numbers, .aboutUs__contacts__email{
+		display: flex;
+		justify-content: space-between;
+		width: 460px;
+		margin-top: 20px;
+	}
+	.aboutUs__contacts__email{
+		margin-top: 20px;
+	}
+	.aboutUs__contacts__numbers ul{
+		margin: 0;
+		line-height: 1.5;
+	}
+	.aboutUs__imgs img{
+		margin-top: 45px;
+		margin-right: 34px;
+		width: 70px;
+		height: 70px;
+	}
+	.aboutServices li{
+		display: flex;
+		justify-content: left;
+		padding-bottom: 4px;
+		line-height: 1.5;
+	}
+	.aboutServices li img{
+		margin-right: 8px;
+	}
+	.timetable li{
+		display: flex;
+		justify-content: space-between;
+		width: 450px;
+		line-height: 1.5;
+	}
+}
+@media (max-width: 2500px) {
+	.aboutUs__contacts__numbers, .aboutUs__contacts__email{
+		width: 360px;
+	}
+	.adres, .numbers{
+		font-size: 24px;
+	}
+	.secondSection{
+		font-size: 22px;
+	}
+	.secondSection h4{
+		font-size: 24px;
+	}	
+	.timetable li{
+		display: flex;
+		justify-content: space-between;
+		width: 350px;
+	}
+}
+
+@media (max-width: 1920px) {
+	body {
+		height: 410px;
+	}
+	/* first Section start*/
+	.undersectionLine{
+		margin: 20px 235px 0px 235px;
+		border: 0.25px solid #AEAFB0;
+	}
+	.adres, .numbers{
+		font-size: 20px;
+	}
+	.firstSection{
+		padding: 0px 235px 0px 235px;
+	}
+	.firstSection img{
+		height: 66px;
+		width: 66px;
+	}
+	.adres__float{
+		width: 195px;
+		padding-left: 40px;
+	}
+	.numbers__float{
+		width: 150px;
+		padding-left: 40px;
+		line-height: 160%;
+	}
+	.numbers__float li{
+		margin: 0px;
+	}
+	/*secondSection start*/
+	.secondSection{
+		padding: 0px 235px 0px 235px;
+		font-size: 16px;
+	}
+	.secondSection__line{
+		width: 39px;
+		height: 0px;
+		border: 1px solid #AEAFB0;
+	}
+	.secondSection h4{
+		font-size: 16px;
+	}
+	.aboutUs__adres{
+		margin-top: 12px;
+	}
+	.aboutUs__contacts__numbers, .aboutUs__contacts__email{
+		width: 240px;
+		margin-top: 4px;
+	}
+	.aboutUs__contacts__email{
+		margin-top: 6px;
+	}
+	.aboutUs__imgs img{
+		margin-top: 35px;
+		margin-right: 24px;
+		width: 40px;
+		height: 40px;
+	}
+	.aboutServices li{
+		padding-bottom: 4px;
+	}
+	.aboutServices li img{
+		margin-right: 8px;
+	}
+	.timetable li{
+		width: 250px;
+	}
+}
+
+
+@media (max-width: 1440px) {
+	body {
+		height: 410px;
+	}
+	/* first Section start*/
+	.undersectionLine{
+		margin: 20px 135px 0px 135px;
+	}
+	.adres, .numbers{
+		font-size: 18px;
+	}
+	.firstSection{
+		padding: 0px 135px 0px 135px;
+	}	/*secondSection start*/
+	.secondSection{
+		padding: 0px 135px 0px 135px;
+	}
+	.secondSection h4{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1350px) {
+	/* first Section start*/
+	.firstSection img{
+		height: 56px;
+		width: 56px;
+	}
+	.adres, .numbers{
+		font-size: 16px;
+	}
+	.adres__float, .numbers__float{
+		padding-left: 20px;
+	}
+	/*secondSection start*/
+	.secondSection{
+		font-size: 12px;
+	}
+	.secondSection h4{
+		font-size: 14px;
+	}
+	.aboutUs__contacts__numbers, .aboutUs__contacts__email{
+		width: 190px;
+	}	
+	.timetable li{
+		width: 180px;
+	}	
+}
+@media (max-width: 900px) {
+	.firstSection img{
+		height: 36px;
+		width: 36px;
+	}
+	.adres, .numbers{
+		font-size: 12px;
+	}
+	.adres__float, .numbers__float{
+		padding-left: 15px;
+	}
+	.secondSection{
+		font-size: 8px;
+	}
+	.secondSection h4{
+		font-size: 12px;
+	}
+	.aboutUs__contacts__numbers, .aboutUs__contacts__email{
+		width: 150px;
+	}	
+	.timetable li{
+		width: 140px;
+	}
+	.aboutUs__imgs img{
+		margin-top: 25px;
+		margin-right: 12px;
+		width: 25px;
+		height: 25px;
+	}
+}
+@media (max-width: 768px) {
+	.firstSection{
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	.adres__float{
+		width: 140px;
+	}
+	.adres{
+		margin-bottom: 10px;
+	}
+	.numbers__float{
+		width: 140px;
+	}
+	.undersectionLine{
+		display: none;
+	}
+	.secondSection{
+		flex-direction: column;
+	}
+	.aboutUs, .aboutServices, .timetable{
+		width: 200px;
+		margin: auto;
+	}
+	.firstSection img{
+		height: 48px;
+		width: 48px;
+	}
+	.adres, .numbers{
+		font-size: 14px;
+	}
+	.adres__float, .numbers__float{
+		padding-left: 15px;
+	}
+	.secondSection{
+		font-size: 12px;
+	}
+	.secondSection h4{
+		font-size: 14px;
+	}
+	.aboutUs__contacts__numbers, .aboutUs__contacts__email{
+		width: 200px;
+	}	
+	.timetable li{
+		width: 200px;
+	}
+	.aboutUs__imgs{
+		justify-content: center;
+		align-items: center;
+	}
+	.aboutUs__imgs img{
+		margin-top: 25px;
+		margin-right: 12px;
+		margin-left: 12px;
+		width: 40px;
+		height: 40px;
+	}
+	.aboutUs__adres, .aboutServices ul, .timetable ul{
+		margin-top: 16px;
+	}
+}
+@media (max-width: 568px) {
+	.undersectionLine{
+		margin: 20px 0px 0px 0px;
+	}
+	.firstSection{
+		padding: 0px 0px 0px 0px;
+	}	/*secondSection start*/
+	.secondSection{
+		padding: 0px 0px 0px 0px;
+	}	
+}

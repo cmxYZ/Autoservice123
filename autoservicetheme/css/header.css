@@ -1,0 +1,310 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: black;
+}
+.menuButton{
+  display: none;
+}
+.bold{
+  font-weight: 600;
+}
+.header{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding-top: 5px;
+  padding-left: 270px ;
+  border-bottom:black ;
+  background-color: #555555;
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 270px;
+}
+ul{
+  white-space: nowrap;
+}
+.time li{
+  list-style-type: none;
+  margin-right: 100px;
+}
+.logo{
+  background-repeat : no-repeat;
+  background-image: url("../img/logo2.png");
+  align-items: center;
+  margin-top: 20px;
+  background-size: 460px;
+}
+.time{
+  white-space: nowrap;
+  padding-right: 50px;
+  color: white;
+}
+.numbers{
+  white-space: nowrap;
+  padding: 10px;
+  color: white;
+}
+.numbers li{
+  list-style-type: none;
+  margin: 5px;
+}
+.phone{
+  height: 90px;
+  width: 90px;
+  background-repeat: no-repeat;
+}
+.medium {
+  font-weight: 500;
+}
+.point{
+  height: 25px;
+  width: 19px;
+  padding-right: 10px;
+}
+.clock{
+  height: 90px;
+  width: 90px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
+.telegr{
+  width: 90px;
+  height: 90px;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  margin-left: 25px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+
+  background-color: white;
+}
+.navbar{
+  /*list-style-type: none;*/
+  padding-left: 250px;
+  margin-bottom: 0;
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar li a{
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.navbar li a:hover{
+  background-color: #888888;
+}
+.registration li{
+  display: inline-block;
+  padding-top: 0px;
+  color: black;
+}
+.recity{
+  margin-right: 270px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.hs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+.registration li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+@media(max-width: 1920px) {
+body {
+  font-size: 16px;
+}
+.second{
+  margin-right: 100px;
+}
+.time li {
+  margin-right: 0px;
+}
+.clock{
+  width: 58px;
+  height: 58px;
+}
+.numbers li{
+  margin-right: 0px;
+}
+.telegr{
+  width: 60px;
+  height: 60px;
+  margin-left: 0px;
+}
+.phone{
+  width: 56px;
+  height: 56px;
+}
+.header{
+  padding-left: 100px ;
+}
+.logo{
+  background-size: 180px;
+}
+.navbar{
+  /*list-style-type: none;*/
+  padding-left: 80px;
+  margin-bottom: 0;
+}
+.navbar li a{
+  margin-bottom: 10px;
+}
+
+.recity{
+  margin-right: 100px;
+}
+
+.hs{
+  grid-template-columns: 10% 90%;
+}
+}
+@media(max-width: 1440px){
+.header{
+  font-size: 13px;
+}
+.medium{
+  font-size: 16px;
+}
+.navbar{
+  font-size: 14px;
+}
+.clock{
+  margin-right: 0px;
+}
+.time ul{
+  padding-left: 13px;
+}
+.numbers ul{
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.numbers li{
+  margin: 10px;
+}
+}
+@media (max-width: 1350px) {
+  .header{
+    font-size: 12px;
+  }
+  .medium {
+    font-size: 14px;
+  }
+  .navbar{
+    font-size: 12px;
+  }
+  .navbar li a{
+    padding: 5px;
+  }
+  .city{
+    font-size: 12px;
+  }
+  .registration{
+    font-size: 12px;
+  }
+  .registration ul{
+    padding-left: 20px;
+  }
+  .clock{
+  width: 48px;
+  height: 48px;
+  }
+  .phone{
+  width: 46px;
+  height: 46px;
+  }
+  .telegr{
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  }
+  .point{
+  height: 17px;
+  width: 12px;
+  }
+}
+@media(max-width: 1100px){
+  .logo{
+    background-size: 140px;
+  }
+  .header{
+    font-size: 10px;
+  }
+  .navbar{
+    font-size: 10px;
+  }
+  .medium{
+    font-size: 12px;
+  }
+  .clock{
+  width: 38px;
+  height: 38px;
+  }
+  .phone{
+  width: 36px;
+  height: 36px;
+  }
+  .telegr{
+  width: 40px;
+  height: 40px;
+  margin-left: 0px;
+  }
+  .point{
+  height: 12px;
+  width: 9px;
+  padding-right: 5px;
+  }
+}
+@media(max-width: 900px){
+  .header{
+    background-color: #FFFFFF;
+    padding-left: 100px; 
+  }
+  .second{
+    margin-right: 100px;
+  }
+  .logo{
+    background-size: 103px;
+    width: 103px;
+    height: 36px;
+    margin: 10px 0px 10px 0px;
+  }
+  .clock, .phone, hr, nav, .numbers, .time, .telegr{
+    display: none;
+  }
+  .menuButton{
+    display: flex;
+    width: 30px;
+    height: 18px;  
+    margin: 18px 0px 21px 0px;
+  }
+}
+@media(max-width: 568px){
+  .header{
+    padding-left: 35px; 
+  }
+  .second{
+    margin-right: 35px;
+  }
+  .menuButton{
+    display: flex;
+    width: 20px;
+    height: 12px;  
+    margin: 21px 0px 21px 0px;
+  }
+}
